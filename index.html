@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyam Kumar Choubey - CSE Student & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="developer.png">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Divyam.web</a>
+            <div class="nav-actions">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark close-icon" onclick="toggleMenu()"></i>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-sun theme-toggle" id="theme-toggle"></i>
+                <i class="fa-solid fa-bars menu-icon" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="hero-content container">
+                <div class="left-section">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1>Divyam Kumar Choubey</h1>
+                    <h2 class="dynamic-text">a <span id="element" class="highlight"></span></h2>
+                    <p class="bio-summary">
+                        CSE student at <strong>NIT Manipur</strong> passionate about
+                        <strong>Full-Stack Development, AI-driven Systems, and Software Engineering</strong>.
+                        Skilled in <strong>Python, C/C++, JavaScript, React.js, Node.js, MongoDB, DSA, and OOP</strong>,
+                        with hands-on experience building scalable web applications and intelligent systems including
+                        <strong>MERN Stack platforms</strong> and <strong>machine learning-based watermarking
+                            solutions</strong>.
+                        Actively seeking opportunities to apply and expand technical expertise through impactful
+                        real-world development.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="Divyam_Choubey_Resume.pdf" download="Divyam_Kumar_Choubey_Resume"
+                            class="btn primary-btn">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                        <a href="https://github.com/Divyam16choubey" target="_blank" class="btn secondary-btn">
+                            <i class="fa-brands fa-github"></i> Visit Github
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Divyam16choubey" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/in/divyam-kumar-choubey-a3ab6b2a6" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:divyam@nitmanipur.ac.in"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div class="profile-image-container">
+                        <img src="profile_placeholder.jpg" alt="Divyam Kumar Choubey Profile Picture">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section section-padding" id="about">
+            <div class="container">
+                <h2 class="section-heading">About Me</h2>
+                <div class="about-content">
+                    <p>
+                        I am a passionate <strong>Computer Science & Engineering student</strong> at the
+                        <strong>National Institute of Technology, Manipur</strong>, with strong interest in
+                        <strong>Full-Stack Web Development, Artificial Intelligence, Machine Learning, and Software
+                            Engineering</strong>.
+                        My academic focus is building solid foundations in
+                        <strong>Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Database
+                            Management Systems (DBMS), Computer Networks</strong>, and the
+                        <strong>Software Development Life Cycle (SDLC)</strong> to engineer scalable and innovative
+                        solutions.
+                    </p>
+
+                    <p>
+                        My technical skill set includes <strong>Python, C, C++, JavaScript, React.js, Node.js,
+                            Express.js, MongoDB, HTML5, CSS3, Tailwind CSS, and SQL</strong>.
+                        I apply these technologies in real-world projects such as developing
+                        <strong>CSEducation</strong>, a modern MERN Stack academic resource portal, and
+                        <strong>AquaMark</strong>, an intelligent image watermarking system integrating machine
+                        learning-based integrity prediction for secure multimedia verification.
+                    </p>
+
+                    <p>
+                        I am highly interested in building modern, responsive, and secure applications with clean
+                        architecture and intuitive user experiences.
+                        Alongside full-stack development, I actively explore
+                        <strong>Cybersecurity, AI-driven Systems, Digital Watermarking, and Predictive Modeling</strong>
+                        to expand my understanding of emerging technologies and secure software practices.
+                    </p>
+
+                    <p>
+                        I have also completed a Virtual Internship in
+                        <strong>Ethical Hacking & Penetration Testing</strong> from
+                        <strong>CDAC Noida</strong>, strengthening my practical knowledge of cybersecurity concepts and
+                        system protection techniques.
+                    </p>
+
+                    <p>
+                        Actively seeking challenging <strong>software development and engineering internship
+                            opportunities</strong>,
+                        I am eager to contribute, learn industry-level practices, and further enhance my technical and
+                        problem-solving abilities through impactful real-world projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator"></div>
+
+        <section class="skills-section section-padding" id="skills">
+            <div class="container">
+                <h2 class="section-heading">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-code"></i> Languages</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>C | C++</li>
+                            <li>Java (Basic)</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-rocket"></i> Frameworks & Concepts</h3>
+                        <ul>
+                            <li>React</li>
+                            <li>Django</li>
+                            <li>DSA & OOP</li>
+                            <li>SDLC</li>
+                            <li>Computer Networks</li>
+                            <li>DBMS</li>
+                            <li>Operating System</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-database"></i> Databases & Tools</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Git</li>
+                            <li>MS Excel & PowerPoint</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator"></div>
+
+        <section class="projects-section section-padding" id="projects">
+            <div class="container">
+                <h2 class="section-heading">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Flappy Bird Clone</h3>
+                        <p class="project-desc">
+                            Developed a browser-playable version of the classic Flappy Bird game using <strong>Python
+                                (Pygame)</strong>.
+                        </p>
+                        <ul class="project-features">
+                            <li>Implemented core mechanics: gravity, jumping, obstacle generation, and collision
+                                detection.</li>
+                            <li>Applied <strong>Object-Oriented Programming</strong> principles for modular and
+                                maintainable code.</li>
+                            <li>Deployed the game to the web using <strong>Pygbag (WebAssembly)</strong>.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Divyam16choubey/FlappyBird.git" target="_blank"
+                                class="project-link"><i class="fa-brands fa-github"></i> Source
+                                Code</a>
+                        </div>
+                        <div class="project-links">
+                            <a href="Flappy_Bird.mp4" target="_blank" class="project-link"><i
+                                    class="fa-solid fa-video"></i> Demo Video</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Professional Developer Portfolio</h3>
+                        <p class="project-desc">
+                            A modern, responsive personal portfolio designed to showcase academic history, technical
+                            skills, and key projects to potential employers.
+                        </p>
+                        <ul class="project-features">
+                            <li>Engineered using clean, semantic <strong>HTML5, CSS3, and JavaScript</strong> from
+                                scratch.</li>
+                            <li>Implemented full <strong>responsive design</strong> (mobile-first approach) using CSS
+                                Media Queries.</li>
+                            <li>Enhanced user experience with a dynamic typing effect in the Hero section using
+                                <strong>Typed.js</strong>.
+                            </li>
+                            <li>Styled with a professional dark-mode theme, utilizing Google Fonts and <strong>Font
+                                    Awesome</strong> for a high-class aesthetic.</li>
+                            <li>Includes dedicated sections for About Me, <strong>Skills (React, Django, DSA)</strong>,
+                                Education, and Contact information.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Divyam16choubey/MyPortfolio.git" target="_blank"
+                                class="project-link"><i class="fa-brands fa-github"></i> Source Code</a>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://divyam-web.netlify.app/" target="_blank" class="project-link"><i
+                                    class="fa-solid fa-eye"></i>View</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>AquaMark AI - Intelligent Invisible Watermarking Platform</h3>
+                        <p class="project-desc">
+                            A full-stack AI-powered watermarking system designed to embed and verify invisible
+                            watermarks in images for authenticity protection and tamper detection.
+                        </p>
+                        <ul class="project-features">
+                            <li>Engineered a complete end-to-end workflow using <strong>React, Vite, Node.js (Express),
+                                    and Python</strong> for invisible watermark embedding and verification.</li>
+
+                            <li>Integrated a <strong>PyTorch-based encoder-decoder model</strong> to perform robust
+                                watermark embedding with tamper detection and integrity verification.</li>
+
+                            <li>Implemented secure <strong>REST API pipelines</strong> for watermark embedding,
+                                verification, and downloadable output generation.</li>
+
+                            <li>Added advanced quality and trust metrics including <strong>PSNR, SSIM, BER, confidence
+                                    score, and integrity probabilities</strong> for detailed performance evaluation.
+                            </li>
+
+                            <li>Designed a modern, fully <strong>responsive user interface</strong> with dedicated
+                                <strong>Embedding Studio</strong> and <strong>Verification Lab</strong> for intuitive
+                                real-time testing.
+                            </li>
+
+                            <li>Incorporated <strong>model health monitoring</strong> through checkpoint status
+                                detection to indicate trained versus baseline inference mode.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Divyam16choubey/AquaMark.git" target="_blank"
+                                class="project-link"><i class="fa-brands fa-github"></i> Source Code</a>
+                        </div>
+                        <div class="project-links">
+                            <a href="AquaMark.mp4" target="_blank" class="project-link"><i
+                                    class="fa-solid fa-video"></i> Demo Video</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>CSEducation — Academic Resource Portal</h3>
+
+                        <p class="project-desc">A modern, scalable academic platform designed to centralize semester-wise study materials,
+                            previous year question papers, books, and curated reference resources for Computer Science &
+                            Engineering students.</p>
+
+                        <ul class="project-features">
+                            <li>Developed a complete <strong>MERN Stack application (MongoDB, Express.js, React, and
+                                    Node.js)</strong> for streamlined academic resource management.</li>
+
+                            <li>Implemented structured modules for <strong>Notes, PYQs, Books, and Reference
+                                    Materials</strong> with semester-wise and subject-wise categorization.</li>
+
+                            <li>Built secure <strong>JWT-based authentication and protected admin dashboards</strong>
+                                for authorized content upload and management.</li>
+
+                            <li>Designed a modern, fully <strong>responsive user interface</strong> using <strong>React,
+                                    Tailwind CSS, Framer Motion, and Vite</strong> with dark/light theme support.</li>
+
+                            <li>Enhanced user experience with <strong>glassmorphism-inspired UI components, animated
+                                    transitions, skeleton loaders, toast notifications, and scroll progress
+                                    indicators</strong>.</li>
+
+                            <li>Engineered scalable backend architecture using <strong>Express.js REST APIs, MongoDB
+                                    database schemas, Mongoose ODM, and Axios-based API integration</strong>.</li>
+
+                            <li>Implemented dedicated sections for <strong>Semester Browser, Subject Viewer, PYQ
+                                    Archive, Resource Explorer, Contact System, and Admin Management Panel</strong>.
+                            </li>
+
+                            <li>Structured the project following <strong>industry-standard clean architecture and
+                                    modular development practices</strong> for maintainability and future scalability.
+                            </li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Divyam16choubey/CSEducation.git" target="_blank"
+                                class="project-link"><i class="fa-brands fa-github"></i> Source Code</a>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1AyFZNw78vhlmlZhhXRWel06SWq2dWxhE/view?usp=sharing"
+                                target="_blank" class="project-link"><i class="fa-solid fa-video"></i> Demo Video</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+            </div>
+        </section>
+
+        <div class="separator"></div>
+
+        <section class="education-section section-padding" id="education">
+            <div class="container">
+                <h2 class="section-heading">Education & Certifications</h2>
+                <div class="education-grid">
+
+                    <div class="edu-card">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h3>B.Tech. in Computer Science & Engineering</h3>
+                        <p class="institute">National Institute of Technology, Manipur</p>
+                        <p class="duration">2023 - Present</p>
+                        <p class="grade">CGPA: 8.95/10</p>
+                    </div>
+
+                    <div class="edu-card">
+                        <i class="fa-solid fa-school"></i>
+                        <h3>Intermediate (Science)</h3>
+                        <p class="institute">A.N. COLLEGE, Patna</p>
+                        <p class="duration">2021 - 2023</p>
+                        <p class="grade">Percentage: 83.2%</p>
+                    </div>
+
+                    <div class="edu-card">
+                        <i class="fa-solid fa-book"></i>
+                        <h3>Matriculation</h3>
+                        <p class="institute">Utkramit MS Haruwadanga, Dighalbank</p>
+                        <p class="duration">2020 - 2021</p>
+                        <p class="grade">Percentage: 96.2%</p>
+                    </div>
+
+                    <div class="edu-card certification">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>Virtual Internship: Ethical Hacking & Penetration Testing</h3>
+                        <p class="institute">CDAC Noida</p>
+                        <p class="duration">19 Aug 2024 - 3 Oct 2024</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator"></div>
+
+        <section class="contact-section section-padding" id="contact">
+            <div class="container">
+                <h2 class="section-heading">Get In Touch</h2>
+                <p class="contact-intro">I'm currently looking for an internship and am open to discussing new
+                    opportunities. Feel free to reach out!</p>
+
+                <div class="contact-info-grid">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:divyam@nitmanipur.ac.in">divyam@nitmanipur.ac.in</a></p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>Github</h3>
+                        <p><a href="https://github.com/Divyam16choubey">Github</a></p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://linkedin.com/in/divyam-kumar-choubey-a3ab6b2a6">linkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Divyam.web</h3>
+                <p>A CSE student focused on building clean, efficient, and scalable software solutions.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            <p>Copyright &copy; 2025 Divyam Kumar Choubey | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
