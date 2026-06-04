@@ -1,87 +1,106 @@
-﻿# Divyam.web Portfolio
+# Divyam.web Portfolio
 
-A modern, responsive personal portfolio website for **Divyam Kumar Choubey** (CSE student at NIT Manipur), built with vanilla HTML, CSS, and JavaScript.
+A responsive personal portfolio website for **Divyam Kumar Choubey**, a Computer Science & Engineering student at the National Institute of Technology, Manipur.
 
-## Overview
+The site presents Divyam's profile, technical skills, featured projects, education, certifications, resume, and contact links in a clean single-page layout.
 
-This project showcases:
-- personal introduction and career objective
-- technical skills
-- major projects with source/demo links
-- education and certification details
-- contact and social profiles
+## Live Preview
 
-The site includes a dynamic typing headline, dark/light theme toggle with persistence, and a mobile-friendly navigation menu.
+- Portfolio: <https://divyam-web.netlify.app/>
+
+## Features
+
+- Responsive single-page portfolio layout
+- Sticky navigation with smooth section scrolling
+- Mobile slide-in navigation menu
+- Dark and light theme toggle with `localStorage` persistence
+- Dynamic hero role text powered by `Typed.js`
+- Resume download button
+- Project cards with source-code and demo links
+- Dedicated sections for About, Skills, Projects, Education, and Contact
 
 ## Tech Stack
 
 - `HTML5`
 - `CSS3`
-- `JavaScript (ES6)`
-- `Typed.js` (for animated typing text)
-- `Font Awesome` (icons)
-- `Google Fonts` (`Poppins`, `Raleway`)
+- `JavaScript`
+- `Typed.js`
+- `Font Awesome`
+- `Google Fonts`
 
 ## Project Structure
 
 ```text
 Divyam.web/
-├── index.html
-├── style.css
-├── script.js
-├── profile_placeholder.jpg
-├── developer.png
-├── Divyam_Choubey_Resume.pdf
-├── Flappy_Bird.mp4
-└── AquaMark.mp4
+|-- index.html
+|-- style.css
+|-- script.js
+|-- README.md
+|-- developer.png
+|-- profile_placeholder.jpg
+|-- Divyam_Kumar_Choubey.pdf
+|-- AquaMark.mp4
+|-- CSEducaiton.mp4
+`-- Flappy_Bird.mp4
 ```
 
-## Key Features
+## Sections
 
-- Responsive single-page layout with section-based navigation
-- Sticky header with smooth scrolling
-- Hero section with animated role text via `Typed.js`
-- Downloadable resume button
-- Dark/Light mode toggle with `localStorage` theme memory
-- Mobile slide-in menu with close-on-link-click behavior
-- Dedicated sections:
-  - About
-  - Skills
-  - Projects
-  - Education & Certifications
-  - Contact
+- **Home** - Hero introduction, animated role text, resume download, and social links
+- **About** - Academic background, interests, and career focus
+- **Skills** - Programming languages, frameworks, databases, and tools
+- **Projects** - Featured projects including Flappy Bird, AquaMark AI, CSEducation, and this portfolio
+- **Education** - Degree, school history, CGPA/percentages, and certification
+- **Contact** - Email, GitHub, and LinkedIn links
+
+## Featured Projects
+
+### Flappy Bird Clone
+
+A browser-playable Flappy Bird clone built with Python and Pygame, deployed to the web using Pygbag/WebAssembly.
+
+### Professional Developer Portfolio
+
+This portfolio website, built from scratch using semantic HTML, custom CSS, and vanilla JavaScript.
+
+### AquaMark AI
+
+An AI-powered invisible watermarking platform using React, Vite, Node.js, Express, Python, and PyTorch-based image-watermarking workflows.
+
+### CSEducation
+
+A MERN Stack academic resource portal for semester-wise notes, previous-year questions, books, and curated CSE learning resources.
 
 ## Run Locally
 
-Because this is a static site, no build step is required.
+No build step is required because this is a static website.
 
-1. Clone or download the project.
-2. Open `index.html` directly in your browser.
+1. Clone or download this repository.
+2. Open `index.html` in a browser.
 
-Optional (recommended for local development):
-- Use a local server such as VS Code Live Server.
+For a smoother development workflow, open the project with VS Code and run it using the Live Server extension.
 
-## Customization Guide
+## Customize
 
-- Update content: edit `index.html`
-- Update styling/theme colors: edit CSS variables in `style.css` (`:root` and `.light-mode`)
-- Update typing roles/theme logic/mobile nav behavior: edit `script.js`
-- Replace assets:
-  - profile image: `profile_placeholder.jpg`
-  - favicon: `developer.png`
-  - resume: `Divyam_Choubey_Resume.pdf`
-  - demo videos: `Flappy_Bird.mp4`, `AquaMark.mp4`
+- Update page content in `index.html`
+- Update colors, spacing, layout, and responsive styles in `style.css`
+- Update typing text, theme behavior, and mobile menu logic in `script.js`
+- Replace profile image with a new `profile_placeholder.jpg`
+- Replace resume with a new PDF and keep the link in `index.html` in sync
+- Replace project demo videos with updated `.mp4` files
 
-## External Dependencies (CDN)
+## External CDN Assets
 
-Loaded in `index.html`:
-- Typed.js: `https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js`
-- Font Awesome 6.5.1: `https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css`
-- Google Fonts: `Poppins`, `Raleway`
+The site loads these resources from CDNs:
+
+- Typed.js: <https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js>
+- Font Awesome: <https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+- Google Fonts: `Poppins` and `Raleway`
 
 ## Deployment
 
-This site can be deployed to any static hosting provider:
+This static site can be deployed on:
+
 - Netlify
 - Vercel
 - GitHub Pages
@@ -90,6 +109,7 @@ This site can be deployed to any static hosting provider:
 ## Author
 
 **Divyam Kumar Choubey**
+
 - GitHub: <https://github.com/Divyam16choubey>
 - LinkedIn: <https://linkedin.com/in/divyam-kumar-choubey-a3ab6b2a6>
 - Email: <mailto:divyam@nitmanipur.ac.in>
