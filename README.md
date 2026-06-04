@@ -41,7 +41,7 @@ Divyam.web/
 |-- Divyam_Kumar_Choubey.pdf
 |-- AquaMark.mp4
 |-- CSEducaiton.mp4
-`-- Flappy_Bird.mp4
+|-- Flappy_Bird.mp4
 ```
 
 ## Sections
