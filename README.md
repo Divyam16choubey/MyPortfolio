@@ -99,12 +99,10 @@ The site loads these resources from CDNs:
 
 ## Deployment
 
-This static site can be deployed on:
+This static site deployed on:
 
 - Netlify
-- Vercel
-- GitHub Pages
-- Firebase Hosting
+
 
 ## Author
 
