@@ -55,21 +55,79 @@ Divyam.web/
 
 ## Featured Projects
 
-### Flappy Bird Clone
+### FOLVIRA
 
-A browser-playable Flappy Bird clone built with Python and Pygame, deployed to the web using Pygbag/WebAssembly.
+An AI-powered portfolio engine and personal brand platform with portfolio creation workflows, authentication, document processing, and an interactive React interface.
 
-### Professional Developer Portfolio
+**Tech Stack:** React, TypeScript, Vite, Tailwind CSS, Express, MongoDB, Mongoose, OpenAI, and JWT
 
-This portfolio website, built from scratch using semantic HTML, custom CSS, and vanilla JavaScript.
+**Repository:** <https://github.com/Divyam16choubey/FOLVIRA>
+
+**Live Demo:** <http://13.233.163.43/>
+
+### ARNetLab
+
+An augmented-reality network visualization tool that places network devices in physical space, connects them into topologies, calculates shortest routes with Dijkstra's algorithm, and animates packet transmission.
+
+**Tech Stack:** React, Vite, Tailwind CSS, Three.js, WebXR, and JavaScript
+
+**Repository:** <https://github.com/Divyam16choubey/ARNetLab>
+
+**Live Demo:** <https://arnetlab.netlify.app/>
 
 ### AquaMark AI
 
-An AI-powered invisible watermarking platform using React, Vite, Node.js, Express, Python, and PyTorch-based image-watermarking workflows.
+An image-watermarking platform that embeds 64-bit invisible watermarks, verifies image integrity, and reports decoded signatures, bit error rates, confidence, and integrity status through a full-stack workflow.
+
+**Tech Stack:** React, Vite, Node.js, Express, Python, and PyTorch
+
+**Repository:** <https://github.com/Divyam16choubey/AquaMark>
 
 ### CSEducation
 
-A MERN Stack academic resource portal for semester-wise notes, previous-year questions, books, and curated CSE learning resources.
+A full-stack academic resource portal that organizes semester-wise notes, previous-year questions, books, and curated Computer Science learning resources.
+
+**Tech Stack:** React, Vite, Tailwind CSS, Node.js, Express, MongoDB, Mongoose, JWT, and Axios
+
+**Repository:** <https://github.com/Divyam16choubey/CSEducation>
+
+**Live Demo:** <https://www.cseducation.me/>
+
+### Professional Developer Portfolio
+
+This responsive single-page portfolio presents professional information, skills, education, featured projects, resume access, and contact links using semantic HTML, custom CSS, and vanilla JavaScript.
+
+**Tech Stack:** HTML5, CSS3, JavaScript, Typed.js, Font Awesome, and Google Fonts
+
+**Repository:** <https://github.com/Divyam16choubey/MyPortfolio>
+
+**Live Demo:** <https://divyam-web.netlify.app/>
+
+### DailyTasks
+
+A browser-based task manager that lets users add, edit, complete, filter, and delete tasks while preserving task data in browser storage and displaying completion progress.
+
+**Tech Stack:** React, Vite, React Icons, and UUID
+
+**Repository:** <https://github.com/Divyam16choubey/DailyTasks>
+
+**Live Demo:** <https://daily-tasks-web.netlify.app/>
+
+### Flappy Bird Clone
+
+A desktop arcade game that recreates Flappy Bird-style obstacle avoidance with keyboard controls, scrolling pipes, collision handling, scoring, and sprite/audio assets.
+
+**Tech Stack:** Python and Pygame
+
+**Repository:** <https://github.com/Divyam16choubey/FlappyBird>
+
+### Netflix Landing Page Clone
+
+A responsive front-end recreation of the Netflix India landing page featuring a hero section, signup layout, content sections, FAQ styling, and footer navigation for visual practice.
+
+**Tech Stack:** HTML5, CSS3, Google Fonts, local image assets, and Netflix-hosted preview media
+
+**Repository:** <https://github.com/Divyam16choubey/Netflix_Clone>
 
 ## Run Locally
 
